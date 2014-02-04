@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">SailingHeelOptimizer</string>
+    <string name="app_name">SailingHeelOptimizer</string>
+    <string name="temp">Temperature</string>
+    <string name="heel">Heel Angle</string>
+    <string name="textstart">No sensor available</string>
+    <string name="compass">Compass</string>
+    <string name="speed">Boat speed</string>
+    <string name="optimumspeed">Optimum Boat speed</string>
+    <string name="optimumheel">Optimum Heel</string>
+    <string name="help">Help Menu</string>
+    <string name="help_menu">Help Help</string>
+    <string name="my_prefs">Preferences</string>
+</resources>

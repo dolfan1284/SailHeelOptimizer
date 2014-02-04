@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	
+	<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textSize="50dp"
+    android:text="@string/my_prefs" />
+
+	<RadioGroup
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <RadioButton android:id="@+id/radio_kts"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="KNOTS"
+          android:textSize = "25dp" />
+      <RadioButton android:id="@+id/radio_mph"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="MPH"
+          android:textSize = "25dp" />
+      <RadioButton android:id="@+id/radio_kmh"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="KM/H"
+          android:textSize = "25dp" />
+    </RadioGroup>
+
+</LinearLayout>
